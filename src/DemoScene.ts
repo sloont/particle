@@ -11,7 +11,7 @@ export default class DemoScene extends Phaser.Scene {
         super();
 
         this.control = new ParticleControl();
-        this.gui = new ParticleGui(this.control);
+        this.gui = new ParticleGui(this, this.control);
         this.config = this.controlToConfig(this.control);
     }
     init() {

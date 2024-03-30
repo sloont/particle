@@ -1,5 +1,5 @@
 import 'phaser';
-import DemoScene from './Demonstration';
+import DemoScene from './DemoScene';
 
 const config = {
     type: Phaser.WEBGL,

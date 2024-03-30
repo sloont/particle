@@ -15,10 +15,11 @@
 		"moduleResolution": "Node",
 		"isolatedModules": true,
 		"resolveJsonModule": true,
-		"typeRoots": ["./*/types"],
+		"typeRoots": ["./types"],
 	},
 	"include": [
 		"src/**/*",
 		"assets/**/*",
+		"types/**/*",
 	]
 }

@@ -1,19 +1,17 @@
 import GUI from "lil-gui";
 import ParticleControl from "./ParticleControl";
+import DemoScene from "./DemoScene";
 
 export default class ParticleGui {
     gui: GUI;
     control: ParticleControl;
-    constructor(control: ParticleControl) {
+    constructor(scene: DemoScene, control: ParticleControl) {
         this.gui = new GUI({
             title: 'control',
         });
         this.control = control;
 
         this.createGuiControls();
-        this.gui.onChange((event) => {
-
-        })
     }
 
     createGuiControls(): void {

@@ -141,12 +141,4 @@ export default class ParticleControl {
     set fixedRotation(val: boolean) {
         this._fixedRotation = val;
     }
-
-    // internal
-    get configDirty() {
-        return this._configDirty;
-    }
-    set configDirty(val: boolean) {
-        this._configDirty = val;
-    }
 }
