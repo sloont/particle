@@ -1,0 +1,24 @@
+{
+	"$schema": "https://json.schemastore.org/tsconfig",
+	"display": "Node 20",
+	"_version": "20.1.0",
+
+	"compilerOptions": {
+		"lib": ["DOM", "ES6"],
+		"module": "ESNext",
+		"target": "es2022",
+
+		"strict": true,
+		"esModuleInterop": true,
+		"skipLibCheck": true,
+		"forceConsistentCasingInFileNames": true,
+		"moduleResolution": "Node",
+		"isolatedModules": true,
+		"resolveJsonModule": true,
+		"typeRoots": ["./*/types"],
+	},
+	"include": [
+		"src/**/*",
+		"assets/**/*",
+	]
+}
